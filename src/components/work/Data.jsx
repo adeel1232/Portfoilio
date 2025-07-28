@@ -1,63 +1,63 @@
-import Work1 from "../../assets/real estate web.png";
-import Work2 from "../../assets/boots.png";
-import Work3 from "../../assets/voice_quiz.png";
-import Work4 from "../../assets/audio_app.png";
-import Work5 from "../../assets/gym-app.png";
+
 import Work6 from "../../assets/3dteebuilder.png";
-import Work7 from "../../assets/work7.png";
+import addd from "../../assets/addd.PNG";
+import OIP from "../../assets/OIP.webp";
+import gov from "../../assets/gov.png";
+import tic from "../../assets/tic.webp";
+
 
 export const projectsData = [
   {
     id: 1,
-    image: Work7,
-    title: "Paws Camp",
+    image: addd,
+    title: "Phonedirectory",
     category: "web",
-    link: "https://travel-web-blond-sigma.vercel.app/",
+    link: "https://phonedirectory-roan.vercel.app/",
   },
+ 
+ 
+  
+
+  
   {
-    id: 2,
+    id: 5,
+
+
     image: Work6,
-    title: "3D Tee Crafter",
+    title: "Shopping Clothes",
     category: "web",
-    link: "https://3d-webapp-ebon.vercel.app/",
+    link: "https://shopping-clothes-ruby.vercel.app/",
   },
-  {
+
+  
+  
+  
+
+ 
+   {
     id: 3,
-    image: Work1,
-    title: "Real Estate Website",
+    image: OIP,
+    title: "Mobile",
     category: "web",
-    link: "https://real-estate-web-alpha.vercel.app/",
+    link: "https://shopping-mobile.vercel.app/",
   },
   {
     id: 4,
-    image: Work5,
-    title: "EvoGym Website",
+    image: gov,
+    title: "Expenses Build",
     category: "web",
-    link: "https://real-estate-web-alpha.vercel.app/",
+    link: "https://budget-app-seven-wine.vercel.app/",
   },
-  {
+ 
+   {
     id: 5,
-    image: Work2,
-    title: "Shoe App Design",
-    category: "design",
-    link: "https://www.behance.net/gallery/100889717/Shoe-World",
+    image: tic,
+    title: "Tic-Tac-Toe",
+    category: "web",
+    link: "https://tic-tac-toe-game-tau-navy.vercel.app/",
   },
-  {
-    id: 6,
-    image: Work3,
-    title: "Voice Quiz App design",
-    category: "design",
-    link: "https://www.behance.net/gallery/100851587/Voice-Quiz",
-  },
-  {
-    id: 7,
-    image: Work4,
-    title: "Audible Exploration App design",
-    category: "design",
-    link: "https://www.behance.net/gallery/100699919/Audible-Exploration",
-  },
-];
 
+]
 export const projectNav = [
   {
     name: "all",

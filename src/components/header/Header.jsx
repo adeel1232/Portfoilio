@@ -18,7 +18,7 @@ function Header() {
     <header className="header">
       <nav className="nav container">
         <a href="index.html" className="nav__logo">
-          Fahad
+          Adeel Ahmad
         </a>
         <div className={showMenu ? "nav__menu show-menu" : "nav__menu"}>
           <ul className="nav__list grid">

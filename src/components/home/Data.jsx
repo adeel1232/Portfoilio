@@ -4,7 +4,7 @@ function Data() {
   return (
     <div className="home__data">
       <h1 className="home__title">
-        Fahad Hussain{" "}
+        Adeel Ahamd{" "}
         <svg
           width="36"
           height="36"
@@ -55,7 +55,7 @@ function Data() {
           ></path>
         </svg>
       </h1>
-      <h3 className="home__subtitle">Software Engineer</h3>
+      <h3 className="home__subtitle">Web Developer</h3>
       <p className="home__description">
         I'm Software Engineer based in Pakistan,Curiosity is my key strength and
         most prominent trait which I have used to learn different tools and

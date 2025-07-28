@@ -28,10 +28,10 @@ function Contact() {
               <i className="bx bxl-mail-send contact__card-icon"></i>
               <h3 className="contact__card-title">Email</h3>
               <span className="contact__card-data">
-                fahadhussain0127@gmail.com
+                adeelchand785@gmail.com
               </span>
               <a
-                href="mailto:fahadhussain0127@gmail.com"
+                href="mailto:adeelchand785@gmail.com"
                 className="contact__button"
               >
                 Write me <i className="bx bx-right-arrow-alt"></i>
@@ -40,7 +40,7 @@ function Contact() {
             <div className="contact__card">
               <i className="bx bxl-whatsapp contact__card-icon"></i>
               <h3 className="contact__card-title">Whatsapp</h3>
-              <span className="contact__card-data">+923234864207</span>
+              <span className="contact__card-data">+923295391301</span>
               <a href="https://api.whatsapp.com" className="contact__button">
                 Text me <i className="bx bx-right-arrow-alt"></i>
               </a>
@@ -48,9 +48,9 @@ function Contact() {
             <div className="contact__card">
               <i className="bx bxl-linkedin contact__card-icon"></i>
               <h3 className="contact__card-title">Linkedin</h3>
-              <span className="contact__card-data">Fahad Hussain</span>
+              <span className="contact__card-data">Adeel Ahmad</span>
               <a
-                href="https://www.linkedin.com/in/fahad-hussain-830691164"
+                href="https://www.linkedin.com/in/AdeelChand"
                 className="contact__button"
               >
                 Reach out <i className="bx bx-right-arrow-alt"></i>

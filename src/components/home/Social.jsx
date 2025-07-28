@@ -4,7 +4,7 @@ function Social() {
   return (
     <div className="home__social">
       <a
-        href="https://www.linkedin.com/in/fahad-hussain-830691164/"
+        href="https://www.linkedin.com/in/adeel-chand-429010373/"
         className="home__social-icon"
         target="_blank"
         rel="noreferrer"
@@ -12,7 +12,7 @@ function Social() {
         <i class="uil uil-linkedin"></i>
       </a>
       <a
-        href="https://www.artstation.com/fahad07"
+        href="https://www.artstation.com/adeel chand"
         className="home__social-icon"
         target="_blank"
         rel="noreferrer"
@@ -20,7 +20,7 @@ function Social() {
         <i class="uil uil-rocket"></i>
       </a>
       <a
-        href="https://www.behance.net/fahadhussain7"
+        href="https://www.behance.net/ adeel chand"
         className="home__social-icon"
         target="_blank"
         rel="noreferrer"
@@ -28,7 +28,7 @@ function Social() {
         <i class="uil uil-behance"></i>
       </a>
       <a
-        href="https://github.com/fahad39"
+        href="https://github.com/adeel1232"
         className="home__social-icon"
         target="_blank"
         rel="noreferrer"
