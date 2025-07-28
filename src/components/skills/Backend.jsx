@@ -9,21 +9,21 @@ function Backend() {
           <div className="skills__data">
             <i className="bx bx-badge-check"></i>
             <div>
-              <h3 className="skills__name">NodeJS</h3>
+              <h3 className="skills__name">Bosststrap</h3>
               <span className="skills__level">Basic</span>
             </div>
           </div>
           <div className="skills__data">
             <i className="bx bx-badge-check"></i>
             <div>
-              <h3 className="skills__name">Express JS</h3>
+              <h3 className="skills__name">Axios</h3>
               <span className="skills__level">Basic</span>
             </div>
           </div>
           <div className="skills__data">
             <i className="bx bx-badge-check"></i>
             <div>
-              <h3 className="skills__name">AWS</h3>
+              <h3 className="skills__name">UI/UX</h3>
               <span className="skills__level">Basic</span>
             </div>
           </div>
@@ -32,7 +32,7 @@ function Backend() {
           <div className="skills__data">
             <i className="bx bx-badge-check"></i>
             <div>
-              <h3 className="skills__name">.NET</h3>
+              <h3 className="skills__name">Authentication</h3>
               <span className="skills__level">Basic</span>
             </div>
           </div>
@@ -43,13 +43,7 @@ function Backend() {
               <span className="skills__level">Basic</span>
             </div>
           </div>
-          <div className="skills__data">
-            <i className="bx bx-badge-check"></i>
-            <div>
-              <h3 className="skills__name">My SQL</h3>
-              <span className="skills__level">Basic</span>
-            </div>
-          </div>
+          
         </div>
       </div>
     </div>
