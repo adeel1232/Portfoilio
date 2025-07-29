@@ -52,7 +52,7 @@ function Qualification() {
                   Comstas University - Pakistan
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calender-alt"></i>2017 - 2021
+                  <i className="uil uil-calender-alt"></i>2025
                 </div>
               </div>
               <div>
@@ -72,7 +72,7 @@ function Qualification() {
                   Pakistan - Coursera
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calender-alt"></i>07/2017 - 10/2017
+                  <i className="uil uil-calender-alt"></i>2025
                 </div>
               </div>
             </div>
@@ -88,7 +88,7 @@ function Qualification() {
                   Pakistan - Coursera
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calender-alt"></i>06/2020 - 07/2020
+                  <i className="uil uil-calender-alt"></i>2025
                 </div>
               </div>
             </div>
@@ -104,7 +104,7 @@ function Qualification() {
                   Pakistan - Coursera
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calender-alt"></i>08/2020 - 10/2020
+                  <i className="uil uil-calender-alt"></i>2025
                 </div>
               </div>
             </div>
@@ -121,7 +121,7 @@ function Qualification() {
                 <h3 className="qualification__title">Web Developer</h3>
                 <span className="qualification__subtitle">The Hexaa</span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calender-alt"></i>2021 - 2022
+                  <i className="uil uil-calender-alt"></i>2025
                 </div>
               </div>
               <div>
@@ -139,7 +139,7 @@ function Qualification() {
                 <h3 className="qualification__title">Software Engineer</h3>
                 <span className="qualification__subtitle">Powersoft 19</span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calender-alt"></i>2022 - present
+                  <i className="uil uil-calender-alt"></i>2025 - present
                 </div>
               </div>
             </div>

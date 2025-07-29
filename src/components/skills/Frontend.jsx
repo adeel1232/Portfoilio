@@ -10,21 +10,21 @@ function Frontend() {
             <i className="bx bx-badge-check"></i>
             <div>
               <h3 className="skills__name">React</h3>
-              <span className="skills__level">React</span>
+              <span className="skills__level">Basic</span>
             </div>
           </div>
           <div className="skills__data">
             <i className="bx bx-badge-check"></i>
             <div>
               <h3 className="skills__name">Redux</h3>
-              <span className="skills__level">Redux</span>
+              <span className="skills__level">Basic</span>
             </div>
           </div>
           <div className="skills__data">
             <i className="bx bx-badge-check"></i>
             <div>
               <h3 className="skills__name">Routing</h3>
-              <span className="skills__level">Routing</span>
+              <span className="skills__level">Basic</span>
             </div>
           </div>
         </div>
@@ -33,7 +33,7 @@ function Frontend() {
             <i className="bx bx-badge-check"></i>
             <div>
               <h3 className="skills__name">Html</h3>
-              <span className="skills__level">Html</span>
+              <span className="skills__level">Basic</span>
             </div>
           </div>
           <div className="skills__data">
