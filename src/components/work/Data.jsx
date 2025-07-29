@@ -4,7 +4,7 @@ import addd from "../../assets/addd.PNG";
 import OIP from "../../assets/OIP.webp";
 import gov from "../../assets/gov.png";
 import tic from "../../assets/tic.webp";
-
+import sdfs from '../../assets/sdfs.webp';
 
 export const projectsData = [
   {
@@ -56,7 +56,13 @@ export const projectsData = [
     category: "web",
     link: "https://tic-tac-toe-game-tau-navy.vercel.app/",
   },
-
+ {
+    id: 6,
+    image: sdfs,
+    title: "MOVIE",
+    category: "web",
+    link: "https://movie-tau-ruddy.vercel.app/",
+  },
 ]
 export const projectNav = [
   {
