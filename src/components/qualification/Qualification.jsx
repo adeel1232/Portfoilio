@@ -46,10 +46,10 @@ function Qualification() {
             <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">
-                  Bachelors of Computer Science
+                  
                 </h3>
                 <span className="qualification__subtitle">
-                  Comstas University - Pakistan
+                  Govt College
                 </span>
                 <div className="qualification__calender">
                   <i className="uil uil-calender-alt"></i>2025
