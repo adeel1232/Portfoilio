@@ -4,7 +4,7 @@ function Social() {
   return (
     <div className="home__social">
       <a
-        href="https://www.linkedin.com/in/adeel-chand-429010373/"
+        href="https://www.linkedin.com/in/adeel-ahmad-429010373/"
         className="home__social-icon"
         target="_blank"
         rel="noreferrer"

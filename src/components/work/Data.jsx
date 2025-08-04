@@ -20,7 +20,7 @@ export const projectsData = [
 
   
   {
-    id: 5,
+    id: 2,
 
 
     image: Work6,
@@ -61,7 +61,7 @@ export const projectsData = [
     image: sdfs,
     title: "MOVIE",
     category: "web",
-    link: "https://movie-tau-ruddy.vercel.app/",
+    link: "https://mobie-app.vercel.app/react-movie-app",
   },
 ]
 export const projectNav = [

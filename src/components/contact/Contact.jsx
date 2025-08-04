@@ -50,7 +50,7 @@ function Contact() {
               <h3 className="contact__card-title">Linkedin</h3>
               <span className="contact__card-data">Adeel Ahmad</span>
               <a
-                href="https://www.linkedin.com/in/AdeelChand"
+                href="https://www.linkedin.com/in/adeel-ahmad-429010373/"
                 className="contact__button"
               >
                 Reach out <i className="bx bx-right-arrow-alt"></i>

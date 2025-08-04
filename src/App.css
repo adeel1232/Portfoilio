@@ -1,42 +1,33 @@
 /* Google Fonts */
-
 @import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@700&family=Fascinate+Inline&family=Poppins:wght@400;500;600&display=swap");
 
-/* Variable CSS */
-
+/* VARIABLES */
 :root {
   --header-height: 3rem;
   /* Colors */
-  --hue: 0;
-  --sat: 0%;
-  --title-color: hsl(var(--hue), var(--sat), 20%);
-  --title-color-dark: hsl(var(--hue), var(--sat), 0%);
-  --text-color: hsl(var(--hue), var(--sat), 46%);
-  --body-color: hsl(var(--hue), var(--sat), 98%);
+  --hue: 24;
+  --sat: 84%;
+  --title-color: hsl(var(--hue), var(--sat), 30%);
+  --title-color-dark: hsl(var(--hue), var(--sat), 15%);
+  --text-color: hsl(0, 0%, 40%);
+  --body-color: hsl(0, 0%, 98%);
   --container-color: #fff;
-  /* Google Fonts and typography */
-  --body-font: "Poppins", "san-sarif";
-  /* .5rem=8px | 1 rem=16px */
-  --big-font-size: 3.5rem;
-  --h1-font-size: 2.25rem;
+  --gradient-color: linear-gradient(135deg, #ff9770, #f36b8d, #8cc0de);
+  /* Fonts */
+  --body-font: "Poppins", sans-serif;
+  --big-font-size: 3rem;
+  --h1-font-size: 2rem;
   --h2-font-size: 1.5rem;
-  --h3-font-size: 1.25rem;
+  --h3-font-size: 1.17rem;
   --normal-font-size: 1rem;
-  --small-font-size: 0.875rem;
-  --smaller-font-size: 0.813rem;
-  --tiny-font-size: 0.625rem;
-  /* Font weight */
+  --small-font-size: .875rem;
+  /* Weights */
   --font-normal: 400;
   --font-medium: 500;
   --font-semi-bold: 600;
-  /* Margenes Bottom */
-  --mb-0-25: 0.25rem;
-  --mb-0-5: 0.5rem;
-  --mb-0-75: 0.75rem;
+  /* Margin bottom */
   --mb-1: 1rem;
-  --mb-1-5: 1.5rem;
   --mb-2: 2rem;
-  --mb-2-5: 2.5rem;
   --mb-3: 3rem;
   /* z-index */
   --z-tooltip: 10;
@@ -44,21 +35,7 @@
   --z-modal: 1000;
 }
 
-/* Responsive typography */
-
-@media screen and (max-width: 992px) {
-  :root {
-    --big-font-size: 2.75rem;
-    --h1-font-size: 1.5rem;
-    --h2-font-size: 1.25rem;
-    --h3-font-size: 1rem;
-    --normal-font-size: 0.938rem;
-    --small-font-size: 0.813rem;
-    --smaller-font-size: 0.75rem;
-  }
-}
-
-/*=============== BASE ===============*/
+/* RESET */
 * {
   margin: 0;
   padding: 0;
@@ -67,6 +44,7 @@
 
 html {
   scroll-behavior: smooth;
+  font-size: 100%;
 }
 
 body,
@@ -80,13 +58,16 @@ textarea {
 body {
   background-color: var(--body-color);
   color: var(--text-color);
+  line-height: 1.6;
 }
 
+/* TEXT */
 h1,
 h2,
 h3 {
   color: var(--title-color);
   font-weight: var(--font-semi-bold);
+  letter-spacing: .5px;
 }
 
 ul {
@@ -95,12 +76,7 @@ ul {
 
 a {
   text-decoration: none;
-}
-
-button {
-  cursor: pointer;
-  border: none;
-  outline: none;
+  color: inherit;
 }
 
 img {
@@ -108,145 +84,102 @@ img {
   height: auto;
 }
 
-/*=============== REUSABLE CSS CLASSES ===============*/
+/* SECTIONS */
 .section {
-  padding: 6rem 0 2rem;
+  padding: 5rem 0;
 }
 
 .section__title {
+  text-align: center;
   font-size: var(--h1-font-size);
-  color: var(--title-color);
+  position: relative;
+  margin-bottom: var(--mb-2);
+}
+
+.section__title::after {
+  content: "";
+  position: absolute;
+  height: 3px;
+  width: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -10px;
+  background-image: var(--gradient-color);
+  border-radius: 5px;
 }
 
 .section__subtitle {
   display: block;
-  font-size: var(--small-font-size);
-  margin-bottom: 4rem;
-}
-
-.section__title,
-.section__subtitle {
   text-align: center;
+  color: var(--text-color);
+  font-size: var(--small-font-size);
+  margin-bottom: var(--mb-3);
 }
 
-/*=============== LAYOUT ===============*/
+/* LAYOUT */
 .container {
-  max-width: 70%;
-  margin-left: auto;
-  margin-right: auto;
+  width: min(90%, 1150px);
+  margin-inline: auto;
 }
 
 .grid {
   display: grid;
-  gap: 1.5rem;
+  gap: 2rem;
 }
 
-/*=============== BUTTONS ===============*/
+/* BUTTON */
 .button {
-  display: inline-block;
-  background-color: var(--title-color);
-  color: var(--container-color);
-  padding: 1.25rem 2rem;
-  border-radius: 1rem;
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+  background-image: var(--gradient-color);
+  color: white;
+  padding: 1rem 2.5rem;
+  border-radius: .75rem;
   font-weight: var(--font-medium);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .button:hover {
-  background-color: var(--title-color-dark);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
-.button__icon {
-  margin-left: var(--mb-0-5);
-}
-
-.button--flex {
-  display: inline-flex;
+/* UTILITIES */
+.flex {
+  display: flex;
   align-items: center;
 }
 
-/*=============== BREAKPOINTS ===============*/
-/* For large devices */
+.center {
+  justify-content: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* BREAKPOINTS */
 @media screen and (max-width: 992px) {
-  .container {
-    margin-left: var(--mb-1-5);
-    margin-right: var(--mb-1-5);
-  }
-
-  .button {
-    padding: 1rem 1.75rem;
-  }
-
-  .button__icon {
-    width: 22px;
-    height: 22px;
+  :root {
+    --big-font-size: 2.5rem;
+    --h1-font-size: 1.75rem;
   }
 }
 
-/* For medium devices */
 @media screen and (max-width: 768px) {
-  body {
-    margin: 0 0 var(--header-height) 0;
-  }
-
   .section {
-    padding: 2rem 0 4rem;
-  }
-
-  .section__subtitle {
-    margin-bottom: var(--mb-3);
+    padding: 3rem 0;
   }
 }
 
 @media screen and (max-width: 576px) {
-}
-
-/* For small devices */
-@media screen and (max-width: 350px) {
   :root {
-    --big-font-size: 2.25rem;
+    --h1-font-size: 1.5rem;
   }
 
-  .container {
-    margin-left: var(--mb-1);
-    margin-right: var(--mb-1);
-  }
-}
-
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+  .button {
+    padding: .75rem 1.75rem;
   }
 }
